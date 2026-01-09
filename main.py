@@ -14,7 +14,7 @@ from fastapi.responses import JSONResponse
 # ==========================================
 # CONFIGURATION
 # ==========================================
-MODEL_INPUT_SIZE = (64, 64)
+MODEL_INPUT_SIZE = (128, 128)
 DISPLAY_SIZE = (512, 512)
 MODEL_DIR = "saved_models"
 
@@ -204,3 +204,4 @@ async def analyze_video_endpoint(file: UploadFile = File(...)):
 if __name__ == '__main__':
 
     uvicorn.run(app, host="0.0.0.0", port=8080)
+
