@@ -3,6 +3,7 @@ uvicorn
 python-multipart
 joblib
 numpy
-scikit-learn
+scikit-learn==1.7.2
 gunicorn
 opencv-python-headless
+
