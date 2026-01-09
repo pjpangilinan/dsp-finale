@@ -4,4 +4,5 @@ python-multipart
 joblib
 numpy
 scikit-learn
+gunicorn
 opencv-python-headless
